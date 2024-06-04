@@ -18,3 +18,5 @@ git diff
 git remote add origin https://github.com/VenkatakrishnanSambath/web-development.git
 
 git push --set-upstream origin master
+
+git pull
