@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone</title>
+    <style>
+        .display-grid{
+            display: grid;
+            background-color: aquamarine;
+            border-radius: 5px;
+            grid-template-rows: auto auto auto auto;
+            row-gap: 50px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .grid-items{
+            display: flex;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        @media (max-width:400px){
+            
+            .display-grid{
+                align-items: left;
+                justify-content: left;
+                row-gap: 20px;
+                padding: 20px;
+            }
+        }
+        /* body{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+            color: white;
+        }
+        .landing-page{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .landing-page > div> button{
+            background-color: blue;
+            color: white;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        nav{
+            display: block;
+        }
+         */
+    </style>
+</head>
+<body>
+    <!-- <div class="landing-page">
+        <div class="video">
+            <video width="1080" height="720" loop>
+                <source src="/Media/iPhone 15 pro.mp4">
+            </video>
+        </div>
+
+        <div>
+            <button><b>Buy</b></button>
+            <p><strong>From Rs.134,000</strong></p>
+        </div>
+        <div>
+            <span>at Rs. 134,000</span>
+        </div> --> 
+    </div>
+    <div class="display-grid">
+        <div class="grid-items">1</div>
+        <div class="grid-items">2</div>
+        <div class="grid-items">3</div>
+        <div class="grid-items">4</div>
+    </div>
+</body>
+</html>
